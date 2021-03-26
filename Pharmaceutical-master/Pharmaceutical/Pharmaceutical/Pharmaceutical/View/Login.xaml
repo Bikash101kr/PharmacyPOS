@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.Login">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Padding="30" Spacing="30" >
+                <Label Text="Welcome To Family Pharmaceutical" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="Large" TextColor="DeepSkyBlue"/>
+                <Entry Placeholder="Enter your Username" Keyboard="Email" x:Name="Username"/>
+            <Entry Placeholder="Enter Your Password" IsPassword="True" x:Name="Password"/>
+
+            <Button Text="Login" Image="@drawable/login.png" BackgroundColor="DarkCyan" TextColor="White" FontSize="Large" Clicked="btn_login"/>
+            
+
+        </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

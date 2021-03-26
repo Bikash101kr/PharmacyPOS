@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.Userlist">
+    <ContentPage.Content >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"  />
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="listUsers" HasUnevenRows="false" Header="Header Value" Footer="Footer" IsPullToRefreshEnabled="True"   ItemSelected="OnSelection" >
+                <ListView.HeaderTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" BackgroundColor="Blue" Padding="5,5,5,5" Grid.Row="0">
+                            <Label Text="Name"  HorizontalOptions="StartAndExpand" FontAttributes="Bold" TextColor="White" Grid.Column="0" />
+                            <Label Text="Username" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TextColor="White" Grid.Column="1"/>
+                            <Label Text="Role"  FontAttributes="Bold" HorizontalOptions="EndAndExpand" TextColor="White" Grid.Column="2"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" Grid.Row="1">
+                                <Label Text="{Binding FirstName}"  HorizontalOptions="StartAndExpand" Grid.Column="0" />
+                                <Label Text="{Binding Username}"  HorizontalOptions="CenterAndExpand" Grid.Column="1" />
+                                <Label Text="{Binding Role}"  HorizontalOptions="EndAndExpand" Grid.Column="2"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.FooterTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="5,5,5,5" Grid.Row="2">
+                            <Button Image="@drawable/user.png" BackgroundColor="Green" HeightRequest="50" Text="Add New User" Clicked="OnNewClicked" />
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.FooterTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage> 

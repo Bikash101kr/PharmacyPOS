@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.SalesRecord">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="SaleslistView" HasUnevenRows="false" Header="Header Value" Footer="Footer" IsPullToRefreshEnabled="True"   ItemSelected="OnSelection" >
+                <ListView.HeaderTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" BackgroundColor="Blue" Padding="5,5,5,5" Grid.Row="0">
+                            <Label Text="Product Name"  HorizontalOptions="StartAndExpand" FontAttributes="Bold" TextColor="White" Grid.Column="0" />
+                            <Label Text="Sales Date" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TextColor="White" Grid.Column="1"/>
+                            <Label Text="Quantity"  FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TextColor="White" Grid.Column="2"/>
+                            <Label Text="Buyrs Name"  FontAttributes="Bold" HorizontalOptions="EndAndExpand" TextColor="White" Grid.Column="3"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5,5,5,5" Grid.Row="1">
+                                <Label Text="{Binding product_name}"  HorizontalOptions="StartAndExpand" Grid.Column="0" />
+                                <Label Text="{Binding sales_date}"  HorizontalOptions="CenterAndExpand" Grid.Column="1" />
+                                <Label Text="{Binding sales_quantity}"  HorizontalOptions="EndAndExpand" Grid.Column="2"/>
+                                <Label Text="{Binding buyrs_name}"  HorizontalOptions="EndAndExpand" Grid.Column="2"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.FooterTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="5,5,5,5" Grid.Row="2">
+                            <Button Image="@drawable/iconsadd.png" BackgroundColor="LightBlue" Text="New Sales"  Clicked="OnNewClicked" />
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.FooterTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>  

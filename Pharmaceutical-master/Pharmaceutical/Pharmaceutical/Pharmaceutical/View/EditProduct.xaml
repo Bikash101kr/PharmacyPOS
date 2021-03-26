@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.EditProduct">
+    <ContentPage.Content>
+        <StackLayout>
+            
+
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lbluser" Grid.Row="0"/>
+
+                <Label x:Name="lbl_batch" Text="Batch Number" FontSize="Large" TextColor="Aqua" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="ent_batch" Grid.Row="1" Grid.Column="1" Text ="{Binding batch_no}" />
+
+                <Label x:Name="lbl_productname" Text="Product Name" FontSize="Large" TextColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+                <Entry x:Name="ent_productname" Grid.Row="2" Grid.Column="1" Text ="{Binding product_name}"/>
+
+                <Label x:Name="lbl_mfddate" Text="Manufacture Date" FontSize="Large" TextColor="Aqua" Grid.Row="3" Grid.Column="0" />
+                <DatePicker x:Name="dp_mfd"  Grid.Row="3" Grid.Column="1" Date ="{Binding mfd_date}" />
+
+                <Label x:Name="lbl_expdate" Text="Expire Date" FontSize="Large" TextColor="Aqua" Grid.Row="4" Grid.Column="0" />
+                <DatePicker x:Name="dp_expd"  Grid.Row="4" Grid.Column="1" Date ="{Binding exp_date}"/>
+
+                <Label  x:Name="lbl_quantity" Text="Quantity" FontSize="Large" TextColor="Aqua" Grid.Row="5" Grid.Column="0"/>
+                <Entry x:Name="ent_quantity" Keyboard="Numeric" Grid.Row="5" Grid.Column="1" Text ="{Binding quantity}"/>
+
+                <Label  x:Name="lbl_rate" Text="Rate" FontSize="Large" TextColor="Aqua" Grid.Row="6" Grid.Column="0"/>
+                <Entry x:Name="ent_rate" Keyboard="Numeric" Grid.Row="6" Grid.Column="1" Text ="{Binding rate}"/>
+
+
+
+                <Button x:Name="btn_update" BackgroundColor="Green" Image="@drawable/update.png" Text="UPDATE MEDICINE" Clicked="updateclicked" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"  />
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

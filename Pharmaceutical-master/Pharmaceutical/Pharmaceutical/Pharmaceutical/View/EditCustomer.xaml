@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.Customer">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lbluser" Grid.Row="0"/>
+
+                <Label x:Name="lbl_id" Text="Identificaton Number" FontSize="Large" TextColor="Aqua" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="ent_id" Grid.Row="1" Grid.Column="1"  />
+
+                <Label x:Name="lbl_idtype" Text="Type of ID" FontSize="Large" TextColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+                <Entry x:Name="ent_idtype" Grid.Row="2" Grid.Column="1"/>
+
+                <Label x:Name="lbl_Name" Text="Full Name" FontSize="Large" TextColor="Aqua" Grid.Row="3" Grid.Column="0" />
+                <DatePicker x:Name="dp_fullname"  Grid.Row="3" Grid.Column="1" />
+
+                <Label x:Name="lbl_address" Text="Address" FontSize="Large" TextColor="Aqua" Grid.Row="4" Grid.Column="0" />
+                <DatePicker x:Name="dp_address"  Grid.Row="4" Grid.Column="1"/>
+
+                <Label  x:Name="lbl_age" Text="Age" FontSize="Large" TextColor="Aqua" Grid.Row="5" Grid.Column="0"/>
+                <Entry x:Name="ent_age" Keyboard="Numeric" Grid.Row="5" Grid.Column="1"/>
+
+                <Label  x:Name="lbl_username" Text="Username" FontSize="Large" TextColor="Aqua" Grid.Row="6" Grid.Column="0"/>
+                <Entry x:Name="ent_username"  Grid.Row="6" Grid.Column="1"/>
+
+                <Button x:Name="btn_addCustomer" BackgroundColor="Green" Image="@drawable/iconsadd.png" Text="ADD Customer" TextColor="White"  Clicked="addclicked" Grid.Row="7" Grid.Column="0"/>
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "K9+wqlylN6vKx9WSPwSTpcZUfb3lgIRzTAAeBNU6mXdR7wRlRgdvl3ZBpplMHC0v+6vToEdvm7AHiqC5ZTLmdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rdsan\\Downloads\\Pharmaceutical-master\\Pharmaceutical\\Pharmaceutical\\Pharmaceutical.iOS\\Pharmaceutical.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rdsan\\.nuget\\packages\\devexpress.mobile.grid\\18.1.4\\devexpress.mobile.grid.18.1.4.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\plugin.sqlite\\1.0.4\\plugin.sqlite.1.0.4.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlite-net-pcl\\1.5.231\\sqlite-net-pcl.1.5.231.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.11\\sqlitepclraw.bundle_green.1.1.11.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlitepclraw.core\\1.1.11\\sqlitepclraw.core.1.1.11.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.11\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.11.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\syncfusion.licensing\\16.3.0.21\\syncfusion.licensing.16.3.0.21.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\syncfusion.xamarin.core\\16.3.0.21\\syncfusion.xamarin.core.16.3.0.21.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\syncfusion.xamarin.datasource\\16.3.0.21\\syncfusion.xamarin.datasource.16.3.0.21.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\16.3.0.21\\syncfusion.xamarin.gridcommon.16.3.0.21.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\syncfusion.xamarin.sflistview\\16.3.0.21\\syncfusion.xamarin.sflistview.16.3.0.21.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\xamarin.forms\\3.2.0.871581\\xamarin.forms.3.2.0.871581.nupkg.sha512",
+    "C:\\Users\\rdsan\\.nuget\\packages\\zumerodatagrid\\1.1.3\\zumerodatagrid.1.1.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: DevExpress.Mobile.Grid 18.1.4 requires Xamarin.Forms (= 3.0.0.561731) but version Xamarin.Forms 3.2.0.871581 was resolved.",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

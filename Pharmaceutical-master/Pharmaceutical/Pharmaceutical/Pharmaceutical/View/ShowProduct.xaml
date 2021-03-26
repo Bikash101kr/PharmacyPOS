@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.ShowProduct">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row ="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large" FontAttributes="Bold" Text="Product Details" />
+
+                <Label Grid.Row="1" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Batch Number"/>
+                <Label Grid.Row="1" Grid.Column="2" FontAttributes="Bold" FontSize="Large" Text ="{Binding product_name}" />
+
+                <Label Grid.Row ="2" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Product" />
+                <Label Grid.Row="2" Grid.Column="2" FontAttributes="Bold" FontSize="Large" Text ="{Binding product_name}" />
+
+                <Label Grid.Row ="3" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Manufacture Date" />
+                <Label Grid.Row="3" Grid.Column="2" FontAttributes="Bold" FontSize="Large" Text ="{Binding mfd_date}"/>
+
+                <Label Grid.Row ="4" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Expiry Date" />
+                <Label Grid.Row="4" Grid.Column="2" Text ="{Binding exp_date}"/>
+
+                <Label Grid.Row ="5" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Quantity" />
+                <Label Grid.Row="5" Grid.Column="2" FontAttributes="Bold" FontSize="Large" Text ="{Binding quantity}" />
+
+                <Label Grid.Row ="6" Grid.Column="1" FontAttributes="Bold" FontSize="Large" Text="Rate" />
+                <Label Grid.Row="6" Grid.Column="2" FontAttributes="Bold" FontSize="Large" Text ="{Binding rate}" />
+
+                <Button Grid.Row ="7" Grid.Column="1" BackgroundColor="DarkBlue" Image="@drawable/edits.png" Text="Edit Details" Clicked="OnEditClicked" />
+                <Button Grid.Row="7" Grid.Column="2" BackgroundColor="Red" Image="@drawable/delete.png" Text="Delete" Clicked="OnDeleteClicked" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

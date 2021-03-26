@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.ShowSales">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row ="0" FontAttributes="Bold"  Grid.Column="0" Grid.ColumnSpan="2" FontSize="25" Text="Sales Details" />
+
+            <Label Grid.Row="1" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Bill Number"/>
+            <Label Grid.Row="1" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding bill_no}" />
+
+            <Label Grid.Row ="2"  FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Buyrs Name" />
+            <Label Grid.Row="2" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding buyrs_name}" />
+
+            <Label Grid.Row ="3" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Product Name" />
+            <Label Grid.Row="3" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding product_name}" />
+
+            <Label Grid.Row ="4" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Sales Date" />
+            <Label Grid.Row="4" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding sales_date}"/>
+
+            <Label Grid.Row ="5" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Quantity" />
+            <Label Grid.Row="5" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding sales_quantity}"/>
+
+            <Label Grid.Row ="6" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Rate" />
+            <Label Grid.Row="6" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding rate}" />
+
+            <Label Grid.Row ="7" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Total Amount" />
+            <Label Grid.Row="7" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding total_amount}" />
+
+            <Label Grid.Row ="8" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Amount Paid" />
+            <Label Grid.Row="8" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding amount_paid}"/>
+
+            <Label Grid.Row ="9" FontAttributes="Bold" FontSize="Medium" Grid.Column="1" Text="Change" />
+            <Label Grid.Row="9" FontAttributes="Bold" FontSize="Medium" Grid.Column="2" Text ="{Binding change}" />
+
+            <Button Grid.Row ="10" Grid.Column="1" BackgroundColor="Gold" HeightRequest="20" Image="@drawable/edits.png" Text="Edit Details" Clicked="OnEditClicked" />
+            <Button Grid.Row="10" Grid.Column="2" BackgroundColor="Red" HeightRequest="20" Image="@drawable/delete.png" Text="Delete" Clicked="OnDeleteClicked" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

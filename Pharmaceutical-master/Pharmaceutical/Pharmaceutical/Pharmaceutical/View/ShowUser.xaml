@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.ShowUser">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition />
+                
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>             
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row ="0" Grid.Column="0" Grid.ColumnSpan="2" FontAttributes="Bold" FontSize="Large" Text="User Details" />
+
+            <Label Grid.Row="1" Grid.Column="0" FontAttributes="Bold" FontSize="Medium" Text="Namer"/>
+            <Label Grid.Row="1" Grid.Column="1" FontAttributes="Bold" FontSize="Medium" Text ="{Binding FirstName}" />
+
+            <Label Grid.Row ="2" Grid.Column="0" FontAttributes="Bold" FontSize="Medium" Text="Username" />
+            <Label Grid.Row="2" Grid.Column="1" FontAttributes="Bold" FontSize="Medium" Text ="{Binding Username}" />
+
+            <Label Grid.Row ="3" Grid.Column="0" FontAttributes="Bold" FontSize="Medium" Text="Role" />
+            <Label Grid.Row="3" Grid.Column="1" FontAttributes="Bold" FontSize="Medium" Text ="{Binding Role}"/>
+
+
+            <Button Grid.Row ="4" BackgroundColor="LightSkyBlue" Grid.Column="0" HeightRequest="20" Image="@drawable/edits.png" Text="Edit Details"  Clicked="OnEditClicked" />
+            <Button Grid.Row="4" BackgroundColor="Red" Grid.Column="1" HeightRequest="20" Image="@drawable/delete.png" Text="Delete" Clicked="OnDeleteClicked" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

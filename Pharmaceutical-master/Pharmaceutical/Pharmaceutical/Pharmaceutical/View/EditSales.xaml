@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.EditSales">
+    <ContentPage.Content>
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <Label x:Name="lbl_billno" Text="Bill Number" FontSize="Large" TextColor="Aqua" Grid.Row="0" Grid.Column="0" />
+            <Entry x:Name="ent_billno" Grid.Row="0"  Grid.Column="1" Text ="{Binding bill_no}" />
+
+            <Label x:Name="lbl_buyrs" Text="Buyrs Name" FontSize="Large" TextColor="Aqua" Grid.Row="1" Grid.Column="0" />
+            <Entry x:Name="ent_buyrs" Grid.Row="1"  Grid.Column="1" Text ="{Binding buyrs_name}" />
+
+            <Label x:Name="lbl_saleproductname" Text="Product Name" FontSize="Large" TextColor="Aqua" Grid.Row="2" Grid.Column="0"/>
+            <Picker x:Name="picker_product" 
+                    SelectedItem="{Binding selectedProducts}" 
+                    Title="Select a Product" 
+                    ItemsSource="{Binding Products}" ItemDisplayBinding="{Binding product_name}" Grid.Row="2"  Grid.Column="1"/>
+
+            <Label x:Name="lbl_saledate" Text="Sale Date" FontSize="Large"  TextColor="Aqua" Grid.Row="3" Grid.Column="0" />
+            <DatePicker x:Name="dp_saledate" Grid.Row="3"  Grid.Column="1" Date ="{Binding sales_date}" />
+
+            <Label  x:Name="lbl_salequantity" Text="Quantity" FontSize="Large"  TextColor="Aqua" Grid.Row="4" Grid.Column="0"/>
+            <Entry x:Name="ent_salequantity" Keyboard="Numeric" Grid.Row="4"  Grid.Column="1" Text ="{Binding sales_quantity}"/>
+
+            <Label  x:Name="lbl_salerate" Text="Rate" FontSize="Large"  TextColor="Aqua" Grid.Row="5" Grid.Column="0"/>
+            <Entry x:Name="ent_salerate" Text ="{Binding rate}" Keyboard="Numeric" Grid.Row="5" Grid.Column="1" />
+
+            <Label  x:Name="lbl_saletotal" Text="Total Amount" FontSize="Large"  TextColor="Aqua" Grid.Row="6" Grid.Column="0"/>
+            <Entry x:Name="ent_saletotal" TextChanged="ent_saletotal_TextChanged" Text ="{Binding total_amount}" Keyboard="Numeric" Grid.Row="6" Grid.Column="1" />
+
+
+
+            <Label  x:Name="lbl_saleamountpaid" Text="Amount Paid" FontSize="Large"  TextColor="Aqua" Grid.Row="7" Grid.Column="0"/>
+            <Entry x:Name="ent_saleamountpaid" Keyboard="Numeric" Grid.Row="7" Text ="{Binding amount_paid}" Grid.Column="1" />
+
+            <Label  x:Name="lbl_salereturn" Text="Return" FontSize="Large" TextColor="Aqua"  Grid.Row="8" Grid.Column="0"/>
+            <Entry x:Name="ent_salereturn" TextChanged="ent_salereturn_TextChanged" Text ="{Binding change}" Keyboard="Numeric" Grid.Row="8" Grid.Column="1" />
+
+
+
+            <Button x:Name="btn_salesave" Image="@drawable/update.png" Text="Update" Clicked="saleupdate_clicked" Grid.Row="9" Grid.Column="1" />
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pharmaceutical.View.UserView">
+    <ContentPage.Content>
+
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition  />
+                <RowDefinition />
+                <RowDefinition  />
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lbluser" Grid.Row="0" />
+            <Button x:Name="btn_product_add"
+                    Clicked="btn_product_add_Clicked"
+                    Grid.Row="1" 
+                    Grid.Column="0" 
+                    Text="Product Add"  
+                    BackgroundColor="Red"                    
+                    FontSize="20"
+                    TextColor="White"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/iconsadd.png"/>
+            <Button x:Name="btn_sales"
+                    Clicked="btn_sales_Clicked"
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Text="Sales"  
+                    BackgroundColor="Orange"
+                    FontSize="20"
+                    TextColor="White"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/sales.png"/>
+            <Button x:Name="btn_sales_record"
+                    Clicked="btn_sales_record_Clicked"
+                    Grid.Row="2" 
+                    Grid.Column="0" 
+                    Text="Sale Record"  
+                    BackgroundColor="Yellow"
+                    FontSize="20"
+                    TextColor="Black"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/list.png"/>
+            <Button x:Name="btn_about"
+                    Clicked="btn_about_Clicked"
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    Text="About Us" 
+                    BackgroundColor="Green"
+                    FontSize="20"
+                    TextColor="White"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/team.png"/>
+            <Button x:Name="btn_stock"
+                    Clicked="btn_stock_Clicked"
+                    Grid.Row="3" 
+                    Grid.Column="0" 
+                    Text="Stock"  
+                    BackgroundColor="Blue"
+                    FontSize="20"
+                    TextColor="White"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/stocks.png"/>
+            
+            <Button x:Name="btn_logout"
+                    Clicked="btn_logout_Clicked"
+                    Grid.Row="3" 
+                    Grid.Column="1" 
+                    Text="Logout"  
+                    BackgroundColor="Violet"
+                    FontSize="20"
+                    TextColor="White"
+                    WidthRequest="120" 
+                    HeightRequest="120"
+                    Image="@drawable/logout.png"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
