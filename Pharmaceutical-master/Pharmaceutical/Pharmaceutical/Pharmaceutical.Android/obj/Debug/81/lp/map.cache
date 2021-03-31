@@ -51,3 +51,7 @@ System.Reflection.Extensions
 System.Resources.ResourceManager
 System.Linq.Queryable
 System.ComponentModel
+SQLitePCLRaw.lib.e_sqlite3.android
+System.Buffers
+System.Memory
+System.Runtime.CompilerServices.Unsafe

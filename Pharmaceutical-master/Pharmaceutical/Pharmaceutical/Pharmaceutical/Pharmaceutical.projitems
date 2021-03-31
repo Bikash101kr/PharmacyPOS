@@ -187,12 +187,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Source\Sajan.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)Source\Sandip.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)Source\Sandip.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Source\Saroj.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\EditUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

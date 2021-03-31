@@ -1,53 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\23\jl\arch-core-common.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\24\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\25\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\26\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\27\jl\support-annotations.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\29\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\30\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\32\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\39\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\4\jl\formsviewgroup.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40\jl\bin\classes.jar</Jar>
-    <Jar>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\41\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\23\jl\arch-core-common.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\24\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\25\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\26\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\27\jl\support-annotations.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\29\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\30\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\32\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\39\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\4\jl\formsviewgroup.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40\jl\bin\classes.jar</Jar>
+    <Jar>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\41\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\8\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\10\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\11\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\12\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\13\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\14\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\15\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\20\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\46\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\8\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\11\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\12\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\14\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\15\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\20\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\46\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\81\lp\8\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\10\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\11\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\12\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\13\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\14\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\15\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\20\jl\assets</ResolvedAssetDirectory>
@@ -56,23 +52,21 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\8.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\10.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\11.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\12.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\13.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\14.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\15.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\20.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\Pharma2\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\46.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\8.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\11.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\12.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\14.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\15.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\31.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\33.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\34.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\35.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\36.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\37.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\38.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\40.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\PharmacyPOS\Pharmaceutical-master\Pharmaceutical\Pharmaceutical\Pharmaceutical.Android\obj\Debug\81\lp\46.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
