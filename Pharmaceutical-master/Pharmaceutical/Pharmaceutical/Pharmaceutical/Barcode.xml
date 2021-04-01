@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"  
+    tools:showIn="@layout/activity_main">  
+    <TextView  
+        android:id="@+id/txtChooseStatic"  
+       android:layout_width="fill_parent"    
+       android:layout_height="wrap_content"    
+       android:layout_marginTop="10dp"  
+       android:layout_alignParentTop="true"  
+       android:text="Choose Encoding Method" />    
+    <Spinner    
+       android:id="@+id/spinner"    
+       android:layout_width="fill_parent"  
+        android:layout_marginTop="10dp"  
+        android:layout_height="wrap_content"  
+       android:layout_below="@+id/txtChooseStatic"  
+       android:prompt="@string/action_choose"/>  
+    <EditText  
+         android:id="@+id/plain_text_input"  
+         android:layout_height="wrap_content"  
+         android:layout_width="match_parent"  
+         android:layout_margin="10dp"  
+         android:layout_below="@+id/spinner"  
+         android:hint="Type Message to Convert"  
+         android:inputType="text"/>  
+    <ImageView  
+        android:layout_centerHorizontal="true"  
+        android:layout_marginTop="10dp"  
+        android:id="@+id/barcodeImage"  
+        android:layout_below="@+id/plain_text_input"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"/>  
+    <Button  
+        android:id="@+id/generate"  
+        android:background="#000000"  
+        android:textColor="#ffffff"  
+        android:layout_centerHorizontal="true"  
+        android:layout_width="wrap_content"  
+        android:padding="10dp"  
+        android:layout_marginTop="10dp"  
+        android:layout_below="@+id/barcodeImage"  
+        android:layout_height="wrap_content"  
+        android:textSize="15dp"  
+        android:text="Generate Code"/>  
+  
+</RelativeLayout> 
